@@ -1,14 +1,14 @@
 
 import './App.css';
 import React  from 'react';
-import Useeffect from './Useeffect/Useeffect'
+import Dalete from './MethodsHTTP/Dalete/Dalete';
 
 
 function App() {
   
   return (
     <div className='app'>
-         <Useeffect/>
+         <Dalete/>
     </div>
   );
 }
