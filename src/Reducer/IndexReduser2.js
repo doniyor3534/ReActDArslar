@@ -10,15 +10,16 @@ const IndexReduser2 = () => {
     const send=(e)=>{
         e.preventDefault()
         dispatch({type:'add',payload:{id:new Date().getTime(),name:input}})
+        setInput('')
     }
     const del=(id)=>{
         dispatch({type:'delete',payload:id})
     }
     return (
-        <div>
+        <div className='reducer'>
             <form onSubmit={send}>
                 <input type="text"  value={input} onChange={(e)=>setInput(e.target.value)}/>
-                <button type='submit'>Add</button>
+                <button type='submit' className='btnadd'>Add</button>
             </form>
             <div className="cards">
                 {

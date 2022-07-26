@@ -2,7 +2,7 @@ export const initialstate= {
     data :[
         {id:0,name:'ali'}
     ],
-   
+    
 }
 
 export const Reducer=(state=initialstate,action)=>{

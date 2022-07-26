@@ -1,16 +1,17 @@
 
 import './App.css';
 import React  from 'react';
-import Dalete from './MethodsHTTP/Dalete/Dalete';
+import List from './Reducer555/List';
 
 
 function App() {
   
   return (
     <div className='app'>
-         <Dalete/>
+         <List/>
     </div>
   );
 }
 
 export default App;
+      
